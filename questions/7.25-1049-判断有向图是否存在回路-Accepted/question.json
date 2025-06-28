@@ -1,0 +1,63 @@
+{
+  "id": 64,
+  "tags": [
+    "图"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1049",
+  "title": "7.25-判断有向图是否存在回路",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">假设对有向图中n个顶点进行自然编号，并以三个数组$s[1..max]$，$fst[1..n]$和$lst[1..n]$表示之。其中数组$s$存放每个顶点的后继顶点的信息，第i个顶点的后继顶点存放在$s$中下标从$fst[i]$起到$lst[i]$的分量中（$i=1,2,...,n$）不包含$lst[i]$本身。若$fst[i]&gt;lst[i]$，则第$i$个顶点无后继顶点。试编写判别该有向图中是否存在回路的算法。</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入第一行为顶点个数</p><p>第二行为数组s</p><p>第三行为数组fst</p><p>第四行为数组lst</p><p>$s$，$fst$，$lst$的第一个元素都为0，仅为占用0位置，从下标1开始为第1个顶点的信息。d</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出有向图是否存在回路，存在输出yes，不存在输出no</span><br /></p>",
+  "samples": [
+    {
+      "input": "3\n0 2 3 3 1 1 2\n0 1 3 5\n0 3 5 7\n",
+      "output": "yes"
+    },
+    {
+      "input": "6\n0 2 3 4 5 6\n0 1 8 21 42 99 100\n0 6 1 1 1 98 2\n",
+      "output": "no\n"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:51:51.118487Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 133,
+  "accepted_number": 87,
+  "statistic_info": {
+    "0": 87,
+    "4": 6,
+    "-1": 37,
+    "-2": 3
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

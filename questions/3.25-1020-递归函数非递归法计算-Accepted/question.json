@@ -1,0 +1,60 @@
+{
+  "id": 17,
+  "tags": [
+    "非递归"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1020",
+  "title": "3.25-递归函数非递归法计算",
+  "description": "<p style=\"margin-left: 0px;\">试写出求递归函数Ｆ(n)的递归算法，并消除递归:</p><p>F(n ) = n + 1 (n = 0)</p><p>F(n) = n * F(n / 2) (n &gt; 0)</p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入非负整数ｎ</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">计算出的F(n)函数的值</span><br /></p>",
+  "samples": [
+    {
+      "input": "10",
+      "output": "100"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:21:21.220119Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 171,
+  "accepted_number": 129,
+  "statistic_info": {
+    "0": 129,
+    "1": 4,
+    "4": 14,
+    "-1": 12,
+    "-2": 12
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

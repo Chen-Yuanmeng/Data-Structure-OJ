@@ -1,0 +1,60 @@
+{
+  "id": 34,
+  "tags": [
+    "绪论"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "0103",
+  "title": "1.18-田径对抗赛",
+  "description": "<p style=\"margin-left: 0px;\">假设有A,B,C,D,E 五个高等院校进行田径对抗赛，各院校的单项成绩均已存入计算机，并构成一张表，表中每一行的形式为</p><p>项目名称 - 性别 - 校名 - 成绩</p><p>编写算法，处理上述表格，以统计个院校的男、女总分和团体总分，并输出</p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入包含多行，每行代表表格中的一行，每个字段以空格分隔</p><p>M代表男生，F代表女生</p>",
+  "output_description": "<p style=\"margin-left: 0px;\">输出每个学校的男，女总分和团体总分，按如下顺序</p><p>第一行输出学校A的男生总分</p><p>第二行输出学校A的女生总分</p><p>第三行输出学校A的团体总分</p><p>第四行输出学校B的男生总分</p><p>...</p><p>如果某个学校没有男生或女生，则跳过对应的行数（如学校A没有女生，则跳过第二行）</p>",
+  "samples": [
+    {
+      "input": "X M A 3\nZ M A 4\nY F B 30",
+      "output": "A M 7\nA 7\nB F 30\nB 30"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:35:26.350627Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 469,
+  "accepted_number": 157,
+  "statistic_info": {
+    "0": 157,
+    "1": 1,
+    "4": 60,
+    "-1": 97,
+    "-2": 37
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": 0
+}

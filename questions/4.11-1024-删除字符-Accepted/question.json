@@ -1,0 +1,64 @@
+{
+  "id": 10,
+  "tags": [
+    "串"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1024",
+  "title": "4.11-删除字符",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">编写算法，求得所有包含在串s中而不包含在串t中的字符（s中重复的字符只选一个）构成的新串r，以及r中每个字符在s中第一次出现的位置。</span><br /></p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">串s和串t，空格分隔</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">串r，以及r中每个字符在s中第一次出现的位置，如果串r为空，则输出-1</span><br /></p>",
+  "samples": [
+    {
+      "input": "abbbaacdx cx",
+      "output": "abd 017"
+    },
+    {
+      "input": "dddd dc",
+      "output": "-1"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:12:33.346067Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 236,
+  "accepted_number": 126,
+  "statistic_info": {
+    "0": 126,
+    "1": 3,
+    "4": 21,
+    "-1": 67,
+    "-2": 19
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

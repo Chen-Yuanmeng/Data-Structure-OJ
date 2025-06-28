@@ -1,0 +1,64 @@
+{
+  "id": 69,
+  "tags": [
+    "树"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1040",
+  "title": "6.48-求距离两个二叉树节点最近的共同祖先",
+  "description": "<p style=\"margin-left: 0px;\">已知在二叉树中，*root为根节点，*p和*q为二叉树中的两个节点，试编写求距离它们最近的共同祖先的算法。</p><p>其中，建立二叉树的节点输入按照先序序列依次读入，比如一个二叉树的示意图如下：</p><p><img alt=\"image.png\" src=\"http://152.136.172.65//public/upload/f97ef15095.png\" width=\"278\" height=\"412\" /><br /></p><p>它的先序序列为124^^5^^3^^,其中^表示搜索到空节点。</p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入分为两行：</p><p>第一行将初始化二叉树各个节点的先序序列作为输入；</p><p>第二行将输入两个需要搜索距离它们最近的共同祖先的节点字符，中间以空格隔开。</p><p>注意节点的类型是字符</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出则是距离给定的两个节点最近的共同祖先的节点字符。</span><br /></p>",
+  "samples": [
+    {
+      "input": "124^^5^^3^^\n4 3",
+      "output": "1"
+    },
+    {
+      "input": "124^^57^^8^^36^9^^^\n6 9",
+      "output": "3"
+    }
+  ],
+  "hint": "<p style=\"margin-left: 0px;\">如果p和q两个节点本身互为祖先子孙关系，则输出祖先节点(即p)的父亲节点，如sample2所示。</p><p>如果此时p为根节点则直接输出p。</p>",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T08:04:56.443168Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 291,
+  "accepted_number": 94,
+  "statistic_info": {
+    "0": 94,
+    "1": 10,
+    "4": 106,
+    "-1": 59,
+    "-2": 14
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

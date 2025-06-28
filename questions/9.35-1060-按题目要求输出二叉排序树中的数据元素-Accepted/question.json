@@ -1,0 +1,59 @@
+{
+  "id": 49,
+  "tags": [
+    "二叉排序树操作"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1060",
+  "title": "9.35-按题目要求输出二叉排序树中的数据元素",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">假设二叉排序树以后继线索链表作存储结构，编写输出该二叉排序树中所有大于a且小于b的关键字的算法。</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入分为三行：</p><p>第一行是创建了中序后继线索二叉排序树后，按中序输出的数据元素</p><p>第二行是<span style=\"color: rgb(73, 80, 96);\">表示题目中指代的判断条件a元素</span></p><p>第三行是<span style=\"color: rgb(73, 80, 96);\">表示题目中指代的判断条件b元素</span></p>",
+  "output_description": "<p><span style=\"color: rgb(73, 80, 96);\">将满足条件的数据元素按中序遍历输出</span><br /></p>",
+  "samples": [
+    {
+      "input": "-45 -7 -6 -5 1 2 5 11 15 26 30 33 63 76 86\n30\n70",
+      "output": "33 63"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:29:08.365000Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 90,
+  "accepted_number": 82,
+  "statistic_info": {
+    "0": 82,
+    "4": 1,
+    "-1": 5,
+    "-2": 2
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

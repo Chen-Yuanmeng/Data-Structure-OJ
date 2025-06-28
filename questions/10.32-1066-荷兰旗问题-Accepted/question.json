@@ -1,0 +1,59 @@
+{
+  "id": 43,
+  "tags": [
+    "排序"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1066",
+  "title": "10.32-荷兰旗问题",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">荷兰国旗问题：设有一个仅由红、白、蓝三种颜色的条块组成的条块序列。请编写一个时间复杂度为O(n)的算法，使得这些条块按红、白、蓝的顺序排好，即排成荷兰旗图案。</span><br /></p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入条块序列，其中1表示红，2表示白，3表示蓝</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出排序好的序列</span><br /></p>",
+  "samples": [
+    {
+      "input": "2 3 3 3 1 1 1",
+      "output": "1 1 1 2 3 3 3"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:20:45.177777Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 102,
+  "accepted_number": 91,
+  "statistic_info": {
+    "0": 91,
+    "4": 3,
+    "-1": 7,
+    "-2": 1
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

@@ -1,0 +1,60 @@
+{
+  "id": 20,
+  "tags": [
+    "串"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1016",
+  "title": "3.18-括号配对",
+  "description": "<p style=\"margin-left: 0px;\">试写一个判别表达式中开,闭括号是否配对出现的算法。</p><p>比如:&#039;(a+b(c-d))&#039;是配对出现的,而&#039;(d-e))&#039;不是配对出现的。</p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">表达式,如:&#039;a+b(c-d)’</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">表达式中的括号是否配对出现,是则输出1,否则输出0</span><br /></p>",
+  "samples": [
+    {
+      "input": "(a+b(c-d))",
+      "output": "1"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:23:50.636239Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 195,
+  "accepted_number": 133,
+  "statistic_info": {
+    "0": 133,
+    "1": 2,
+    "4": 14,
+    "-1": 33,
+    "-2": 13
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

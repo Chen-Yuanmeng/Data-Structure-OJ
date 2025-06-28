@@ -1,0 +1,64 @@
+{
+  "id": 9,
+  "tags": [
+    "串"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1025",
+  "title": "4.16-字符串比较",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">编写算法，实现串的基本操作StrCompare(S,T)</span><br /></p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">字符串S，T，空格分隔</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出比较结果，0代表S=T，1代表S&gt;T，-1代表S&lt;T</span><br /></p>",
+  "samples": [
+    {
+      "input": "acccdd accd",
+      "output": "-1"
+    },
+    {
+      "input": "bee abee",
+      "output": "1"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:11:35.460433Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 194,
+  "accepted_number": 124,
+  "statistic_info": {
+    "0": 124,
+    "1": 5,
+    "4": 7,
+    "-1": 47,
+    "-2": 11
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

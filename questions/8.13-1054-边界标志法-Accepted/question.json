@@ -1,0 +1,64 @@
+{
+  "id": 59,
+  "tags": [
+    "动态存储管理"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1054",
+  "title": "8.13-边界标志法",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">试完成边界标志法和依首次适配策略进行分配相应的回收释放块的算法</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入分为两部分，第一部分是已有的空闲块，其中每一行有三个部分，分别表示标志位，起始地址以及块空间大小</p><p>第二部分是待回收的释放块，每行有三个部分，分别表示标志位，起始地址以及块空间大小</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出回收后的空闲块状态</span><br /></p>",
+  "samples": [
+    {
+      "input": "0 10000 15000\n0 31000 8000\n0 59000 41000\n\n1 30000 1000\n1 40000 2000\n",
+      "output": "0 10000 15000\n0 30000 9000\n0 40000 2000\n0 59000 41000\n"
+    },
+    {
+      "input": "0 0 100\n0 3001 4000\n\n1 2000 1000\n",
+      "output": "0 0 100\n0 2000 1000\n0 3001 4000\n"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:42:19.456861Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 191,
+  "accepted_number": 82,
+  "statistic_info": {
+    "0": 82,
+    "1": 6,
+    "4": 13,
+    "-1": 81,
+    "-2": 9
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

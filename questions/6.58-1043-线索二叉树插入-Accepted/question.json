@@ -1,0 +1,63 @@
+{
+  "id": 1,
+  "tags": [
+    "二叉树"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1043",
+  "title": "6.58-线索二叉树插入",
+  "description": "<p style=\"margin-left: 0px;\">试写一个算法，在中序全线索二叉树的节点*p之下，插入一棵以节点*x为根，只有左子树的中序全线索二叉树，使*x为根的二叉树成为*p的左子树。若*p原来有左子树，则令它为*x的右子树。完成插入之后的二叉树应保持全线索化的特性。</p><p>例如，给定二叉树如下，*p=2</p><p><img alt=\"image.png\" src=\"http://152.136.172.65/public/upload/f45a2ae7b5.png\" width=\"234\" height=\"404\" /><br /></p><p>若以节点*x=7为根的二叉树如下，</p><p><img alt=\"image.png\" src=\"http://152.136.172.65/public/upload/810930073c.png\" width=\"158\" height=\"246\" /><br /></p><p>则插入后的二叉树如下，</p><p><img alt=\"image.png\" src=\"http://152.136.172.65/public/upload/b340e93948.png\" width=\"210\" height=\"542\" /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">首先输入*p所在的二叉树，使用<a href=\"http://152.136.172.65/problem/1039\" target=\"_blank\">6.43</a>中的表示法表示。</p><p>然后输入*p节点</p><p>最后输入以*x为根的二叉<span style=\"color: rgb(51, 51, 51);\">输出插入之后树的中序遍历序列</span>树，同样使用<a href=\"http://152.136.172.65/problem/1039\" target=\"_blank\">6.43</a>中的表示法表示，注意此时的根节点不一定为1，此时数组中的下标和节点的对应关系如下所示。</p><p>例如，例子中的*x所在二叉树的表示为</p><p>L=7 8 0</p><p>R=7 0 0</p><p>此时，设偏移量o为根节号减1，即o=7-1=6，节点7的左右子节点对应L[7-6]=8，R[7-6]=8，节点8的左右子节点对应L[8-6]=0，R[8-6]=0。</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出插入之后树的中序遍历序列</span><br /></p>",
+  "samples": [
+    {
+      "input": "1 2 4 0 0 0\n1 3 5 0 0 0\n2\n7 8 0\n7 0 0",
+      "output": "8 7 4 2 5 1 3"
+    },
+    {
+      "input": "1 0 0\n1 2 0\n1\n3 4 5 0 0\n3 0 6 0 0",
+      "output": "5 4 6 3 1 2"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T03:55:18.627771Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 218,
+  "accepted_number": 124,
+  "statistic_info": {
+    "0": 124,
+    "4": 17,
+    "-1": 54,
+    "-2": 19
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

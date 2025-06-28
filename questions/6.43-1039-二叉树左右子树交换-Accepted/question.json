@@ -1,0 +1,64 @@
+{
+  "id": 3,
+  "tags": [
+    "树",
+    "二叉树"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1039",
+  "title": "6.43-二叉树左右子树交换",
+  "description": "<p style=\"margin-left: 0px;\">编写递归算法，将二叉树中所有节点的左、右子树相互交换。</p><p>例如，</p><p><img alt=\"image.png\" src=\"http://152.136.172.65/public/upload/848dc5fe5f.png\" width=\"120\" height=\"280.9756097560976\" />转化为<img alt=\"image.png\" src=\"http://152.136.172.65/public/upload/21671a768b.png\" width=\"150\" height=\"266.0377358490566\" /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">完整的二叉树，具体表示形式如下：</p><p>假定用两个一维数组$L[n+1]$和$R[n+1]$作为有$n$个节点的二叉树的存储结构，$L[i]$和$R[i]$分别指示节点$i(i=1,2,...,n)$的左孩子和右孩子，0表示空。</p><p>例如，给定数组</p><p>L = 1 2 4 0 0 0</p><p>R = 1 3 5 0 0 0</p><p>数组表示的二叉树的示意图如下：</p><p><img alt=\"image.png\" src=\"http://152.136.172.65/public/upload/f97ef15095.png\" width=\"150\" height=\"222.3021582733813\" /><br /></p><p>注意：L和R的第一个元素为根节点。上例中，L[0]=R[0]=1，表示根节点为1。</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出翻转左右子树后的树，使用输入的格式进行输出。</span><br /></p>",
+  "samples": [
+    {
+      "input": "1 2 4 0 0 0\n1 3 5 0 0 0",
+      "output": "1 3 5 0 0 0\n1 2 4 0 0 0"
+    },
+    {
+      "input": "1 2 3 0\n1 0 0 0",
+      "output": "1 0 0 0\n1 2 3 0"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:02:13.590625Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 204,
+  "accepted_number": 114,
+  "statistic_info": {
+    "0": 114,
+    "4": 9,
+    "-1": 52,
+    "-2": 18
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

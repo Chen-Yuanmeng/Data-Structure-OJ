@@ -1,0 +1,59 @@
+{
+  "id": 50,
+  "tags": [
+    "二叉排序树操作"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1059",
+  "title": "9.33-递归处理二叉排序树中关键字输出问题",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">编写递归算法，从大到小输出给定二叉排序树中所有关键字不小于x的数据元素</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入分为两部分：</p><p>第一行作为第一部分，就是给定的的二叉排序树各个数据元素</p><p>第二行作为第二部分，就是表示题目中指代的判断条件x元素</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">将满足条件的数据元素从大到小输出一行</span><br /></p>",
+  "samples": [
+    {
+      "input": "-9 0 1 2 7 8 15 24 31 36 43 45\n8",
+      "output": "45 43 36 31 24 15 8"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:29:59.956457Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 103,
+  "accepted_number": 81,
+  "statistic_info": {
+    "0": 81,
+    "4": 4,
+    "-1": 14,
+    "-2": 4
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

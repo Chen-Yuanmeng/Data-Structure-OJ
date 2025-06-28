@@ -1,0 +1,64 @@
+{
+  "id": 55,
+  "tags": [
+    "Trie"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1062",
+  "title": "9.42+9.43-Trie 树插入删除和查找",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">假设Trie树上同义词放在同一叶子结点中，请实现 Trie 树的插入、删除、查找功能</span><br /></p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入为若干行，每行包括一个数字和一个字符串(只包含小写字母)，数字 1、2、3 分别表示插入、删除、查找。如果删除的元素不存在，则不作任何操作。查找的元素存在输出为 True, 不存在输出为 False.</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出的行数为查找操作的次数，若查找的元素存在输出为 True, 不存在输出为 False。</span><br /></p>",
+  "samples": [
+    {
+      "input": "1 apple\n1 app\n1 at\n2 app\n3 apple\n2 apple\n3 apple\n",
+      "output": "True\nFalse"
+    },
+    {
+      "input": "1 a\n1 b\n1 c\n1 ab\n1 acd\n2 ac\n3 ac\n3 abc\n3 ab\n",
+      "output": "False\nFalse\nTrue"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:36:38.664503Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 104,
+  "accepted_number": 80,
+  "statistic_info": {
+    "0": 80,
+    "1": 1,
+    "4": 10,
+    "-1": 8,
+    "-2": 5
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

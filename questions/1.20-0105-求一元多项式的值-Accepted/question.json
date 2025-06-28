@@ -1,0 +1,59 @@
+{
+  "id": 33,
+  "tags": [
+    "绪论"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "0105",
+  "title": "1.20-求一元多项式的值",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">编写算法求一元多项式$P_n(x_0)=\\sum_{i=0}^n a_i x_0^i$的值$P_n(x_0)$</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入第一行为$x_0$和$n$，以空格分隔，$n&gt;=0$</p><p>输入第二行为$a_i(i=0,1,...,n)$，$-1000&lt;=a_i&lt;=1000$以空格分隔</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出</span><span style=\"color: rgb(51, 51, 51);\">$P_n(x_0)$的值</span><br /></p>",
+  "samples": [
+    {
+      "input": "2 2\n0 1 2",
+      "output": "10"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:34:49.205277Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 275,
+  "accepted_number": 152,
+  "statistic_info": {
+    "0": 152,
+    "4": 9,
+    "-1": 88,
+    "-2": 26
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": 0
+}

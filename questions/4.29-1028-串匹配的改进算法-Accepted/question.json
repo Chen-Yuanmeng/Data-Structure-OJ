@@ -1,0 +1,61 @@
+{
+  "id": 13,
+  "tags": [
+    "串匹配",
+    "KMP"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1028",
+  "title": "4.29-串匹配的改进算法",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">假设以结点大小为1（带头结点）的链表结构表示串，则在利用next函数值进行串匹配时，在每个结点中需设三个域：数据域chdata、指针域succ和指针域next。其中chdata域存放一个字符；succ域存放指向同一链表中后继结点的指针；next域在主串中存放指向同一链表中前驱结点的指针；在模式串中，存放指向当该结点的字符与主串中的字符不等时，在模式串中下一个应进行比较的字符结点（即与该字符的next函数值相对应的字符结点）的指针，若该节点字符的next函数值为0，则其next域的值应指向头结点。试按上述定义的结构改写串匹配的改进算法（KMP算法）。</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入分为三行，第一行输入两个数，分别为待搜索串的长度和目标串的长度。</p><p>第二行表示待搜索串的元素序列。</p><p>第三行表示目标串的元素序列。</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">若能在待搜索串中匹配到目标串，则输出目标串的第一个字符在待搜索串中的位置（从0开始）；若不能，则输出-1。</span><br /></p>",
+  "samples": [
+    {
+      "input": "7 3\nsamples\nsam",
+      "output": "0"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:16:09.986071Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 270,
+  "accepted_number": 123,
+  "statistic_info": {
+    "0": 123,
+    "1": 20,
+    "4": 47,
+    "-1": 69,
+    "-2": 11
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

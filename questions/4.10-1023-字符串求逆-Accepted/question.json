@@ -1,0 +1,59 @@
+{
+  "id": 11,
+  "tags": [
+    "串"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1023",
+  "title": "4.10-字符串求逆",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">编写对串求逆的递推算法。</span><br /></p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">原始字符串</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">求逆之后的字符串</span><br /></p>",
+  "samples": [
+    {
+      "input": "abcde",
+      "output": "edcba"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:14:33.228146Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 359,
+  "accepted_number": 133,
+  "statistic_info": {
+    "0": 133,
+    "4": 10,
+    "-1": 196,
+    "-2": 20
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

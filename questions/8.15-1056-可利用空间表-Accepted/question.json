@@ -1,0 +1,67 @@
+{
+  "id": 57,
+  "tags": [
+    "动态存储管理"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1056",
+  "title": "8.15-可利用空间表",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">设被管理空间的上下界地址分别由变量highbound和lowbound给出，形成一个由同样大小的块组成的“堆”。试写一个算法，将所有tag域为0的块按始址递增顺序链接成一个可利用空间表。</span><br /></p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入分为两行，第一行为管理空间的上下界变量的highbound，lowbound以及每个块的大小，第二行为每个块的tag</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出为可利用空间表，每一行代表每个元素，每个元素包含三个数字，分别代表tag，起始地址和空间大小</span><br /></p>",
+  "samples": [
+    {
+      "input": "0 20 2\n0 0 1 1 0 0 1 0 1 1\n",
+      "output": "0 0 4\n0 8 4\n0 14 2\n"
+    },
+    {
+      "input": "30 40 1\n1 1 1 1 1 1 1 1 1 1\n",
+      "output": "0 0 0\n"
+    },
+    {
+      "input": "10 25 3\n0 0 0 0 1\n",
+      "output": "0 10 12\n"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:40:14.585852Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 136,
+  "accepted_number": 85,
+  "statistic_info": {
+    "0": 85,
+    "4": 7,
+    "-1": 42,
+    "-2": 2
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

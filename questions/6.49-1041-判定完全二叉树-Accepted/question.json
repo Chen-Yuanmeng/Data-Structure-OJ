@@ -1,0 +1,68 @@
+{
+  "id": 74,
+  "tags": [
+    "二叉树"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1041",
+  "title": "6.49-判定完全二叉树",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">编写算法判定给定二叉树是否为完全二叉树。</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入为 $n$ 行，表示 $n$ 个节点的信息。</p><p>第 $i， i\\in[1, n]$ 行为节点 $i$ 的信息，包括一个字符 $c$ 和两个数字 $p$ 和 $q$， 这表示第 $i$ 个节点的内容为字符 $c$, 其左孩子为 $p$, 右孩子为 $q$。空节点使用 -1 表示。</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">如果是完全二叉树，则输出 字符串 `Yes`；如果不是，则输出字符串 `No`。</span><br /></p>",
+  "samples": [
+    {
+      "input": "A -1 -1",
+      "output": "Yes"
+    },
+    {
+      "input": "A 2 -1\nB -1 -1",
+      "output": "Yes"
+    },
+    {
+      "input": "A 2 4\nB -1 3\nC -1 -1\nD -1 -1\n",
+      "output": "No"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T08:11:16.061173Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 229,
+  "accepted_number": 100,
+  "statistic_info": {
+    "0": 100,
+    "1": 2,
+    "4": 38,
+    "-1": 62,
+    "-2": 27
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

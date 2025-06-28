@@ -1,0 +1,58 @@
+{
+  "id": 71,
+  "tags": [
+    "二叉树"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1038",
+  "title": "6.20-二叉树的线索化",
+  "description": "<p style=\"margin-left: 0px;\">将下列森林转换为相应的二叉树，并分别按以下说明进行线索化：</p><p><img alt=\"6.20.png\" src=\"http://152.136.172.65/public/upload/e1c289107a.png\" width=\"829\" height=\"308\" /><br /></p><p>（1）先序前驱线索化；</p><p>（2）中序全线索化前驱线索和后继线索；</p><p>（3）后序后继线索化</p>",
+  "input_description": "<p style=\"margin-left: 0px;\">第一行输入节点的个数n。</p><p>接下来的n行，每行包括3个数值，第一个数值表示当前节点值，第二个数值表示当前节点的第一个子节点的值，第三个数值表示当前节点的下一个兄弟的数值，空节点使用0表示。</p>",
+  "output_description": "<p style=\"margin-left: 0px;\">按顺序以二叉树的方式输出三种线索化的结果，<span style=\"color: rgb(73, 80, 96);\">即输出为6行，1、2行分别为</span>（1）即先序前驱线索化后的L数组和R数组，<span style=\"color: rgb(73, 80, 96);\">3、4行分别为</span>（2）即中序全线索化前驱线索和后及线索后的<span style=\"color: rgb(73, 80, 96);\">L数组和R数组，5、6行分别为<span style=\"color: rgb(51, 51, 51);\">（3）即后继后续线索化</span>的L数组和R数组。</span></p><p><span style=\"color: rgb(73, 80, 96);\">二叉树的表示方式详见[6.33](<a href=\"http://42.192.84.166/problem/1035%60\" target=\"_blank\">http://152.136.172.65//problem/1035%60</a>)，其中数组下标i表示第i个节点（如i=3表示图中节点值为3的节点）。</span></p>",
+  "samples": [
+    {
+      "input": "15\n1 2 0\n2 3 0\n3 0 4\n4 0 5\n5 6 0\n6 8 7\n7 0 0\n8 0 0\n9 10 0\n10 0 0\n11 0 0\n12 13 0\n13 15 14\n14 0 0\n15 0 0",
+      "output": "1 2 3 2 3 6 8 8 6 10 9 10 13 15 15 13\n1 9 0 4 5 0 7 0 0 11 0 12 0 14 0 0\n1 2 3 0 3 6 8 6 4 10 1 9 13 15 13 11\n1 9 1 4 5 2 7 5 6 11 9 12 0 14 12 13\n1 2 3 0 0 6 8 0 0 10 0 0 13 15 0 0\n1 9 10 4 5 4 7 6 7 11 15 12 11 14 13 14"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T08:08:16.919788Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 158,
+  "accepted_number": 105,
+  "statistic_info": {
+    "0": 105,
+    "-1": 39,
+    "-2": 14
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

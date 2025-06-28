@@ -1,0 +1,63 @@
+{
+  "id": 66,
+  "tags": [
+    "建立二叉树"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1044",
+  "title": "6.65-建立二叉树链表",
+  "description": "<p style=\"margin-left: 0px;\">已知一棵二叉树的前序序列和中序序列分别存于两个一维数组中，试编写算法建立该二叉树的二叉链表，然后输出该二叉链表的后序序列。</p><p>比如一棵二叉树链表的示意图如下：</p><p><img alt=\"image.png\" src=\"http://152.136.172.65//public/upload/f97ef15095.png\" width=\"278\" height=\"412\" /></p><p>前序序列数组为：[1,2,4,5,3]</p><p>中序序列数组为：[4,2,5,1,3]</p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入分为两行，</p><p>第一行输入为二叉树的先序序列；</p><p>第二行输入为二叉树的中序序列。</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出为二叉树的后序序列</span><br /></p>",
+  "samples": [
+    {
+      "input": "12453\n42513",
+      "output": "45231"
+    },
+    {
+      "input": "ABDHEICFJKG\nDHBEIAJFKCG",
+      "output": "HDIEBJKFGCA"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T08:00:14.144297Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 130,
+  "accepted_number": 98,
+  "statistic_info": {
+    "0": 98,
+    "4": 16,
+    "-1": 13,
+    "-2": 3
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

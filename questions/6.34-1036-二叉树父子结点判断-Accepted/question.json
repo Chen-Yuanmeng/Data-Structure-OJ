@@ -1,0 +1,60 @@
+{
+  "id": 72,
+  "tags": [
+    "树"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1036",
+  "title": "6.34-二叉树父子结点判断",
+  "description": "<p style=\"margin-left: 0px;\">假定用两个一维数组$L[n+1]$和$R[n+1]$作为有$n$个节点的二叉树的存储结构，$L[i]$和$R[i]$分别指示节点$i(i=1,2,...,n)$的左孩子和右孩子，0表示空。然后由L和R建立一维数组$T[n+1]$，使T中第$i(i=1,2,...,n)$个分量指示节点i的双亲，试写一个算法判别节点$u$是否为节点$v$的子孙。</p><p>例如，给定数组</p><p>T= 0 0 1 1 2 2</p><p>L= 0 2 4 0 0 0</p><p>R=0 3 5 0 0 0</p><p>数组表示的二叉树的示意图如下：</p><p><img alt=\"image.png\" src=\"http://152.136.172.65/public/upload/f97ef15095.png\" width=\"278\" height=\"412\" /><br /></p><p>注意：依据题目T,L,R的数组长度均为n+1,则它们数组的第一个元素均存为0。</p>",
+  "input_description": "<p style=\"margin-left: 0px;\"><span style=\"color: rgb(73, 80, 96);\">第一行,第二行与第三行分别是T,L和R数组，元素之间使用空格分隔</span></p><p><span style=\"color: rgb(73, 80, 96);\">第四行输入元素u和元素v，空格分隔</span></p>",
+  "output_description": "<p><span style=\"color: rgb(73, 80, 96);\">判断u是否为v的子孙，是则输出1，否则输出0</span><br /></p>",
+  "samples": [
+    {
+      "input": "0 0 1 1 2 2 3 5 5 6\n0 2 4 6 0 7 0 0 0 0\n0 3 5 0 0 8 9 0 0 0\n7 3",
+      "output": "0"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T08:09:11.189545Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 177,
+  "accepted_number": 100,
+  "statistic_info": {
+    "0": 100,
+    "1": 1,
+    "4": 6,
+    "-1": 48,
+    "-2": 22
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

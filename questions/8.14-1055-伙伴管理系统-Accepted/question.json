@@ -1,0 +1,71 @@
+{
+  "id": 58,
+  "tags": [
+    "动态存储管理"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1055",
+  "title": "8.14-伙伴管理系统",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">试完成伙伴管理系统的存储回收算法。</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入分为两部分，第一部分是当前已有的空闲块链表，每行中的第一个数字代表当前链表的k，第一个数字之后的每个数字代表每个块的起始地址。</p><p>第二部分中每行代表待回收的空闲块，第一个数字为空闲块的k，第二个数字为该块的起始地址。</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出回收后的空闲块链表</span><br /></p>",
+  "samples": [
+    {
+      "input": "2 0 8 16\n\n2 4\n",
+      "output": "2 8 16\n3 0\n"
+    },
+    {
+      "input": "2 0\n3 8\n\n2 4\n",
+      "output": "4 0\n"
+    },
+    {
+      "input": "5 0 64\n\n5 32\n5 96\n",
+      "output": "7 0\n"
+    },
+    {
+      "input": "3 56 64\n4 0\n\n2 52\n2 48\n3 40\n",
+      "output": "3 40 64\n4 0 48\n"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:41:26.990083Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 136,
+  "accepted_number": 82,
+  "statistic_info": {
+    "0": 82,
+    "4": 2,
+    "-1": 44,
+    "-2": 8
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

@@ -1,0 +1,59 @@
+{
+  "id": 27,
+  "tags": [
+    "链表"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1010",
+  "title": "2.19-链表删除指定范围的元素",
+  "description": "<p style=\"margin-left: 0px;\">已知线性表中的元素以递增有序排列，并以单链表为存储结构。试写一高效算法，删除表中所有值大于mink且小于maxk的元素（若表中存在这样的元素），同时释放被删节点的空间。</p><p>注意：mink和maxk是给定的两个参变量，他们的值可以和表中的元素相同，也可以不同。</p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入包含两行，第一行是链表中的元素，以空格分隔。</p><p>第二行分别为mink和maxk两个元素，以空格分隔。</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出最后的链表中的元素</span><br /></p>",
+  "samples": [
+    {
+      "input": "1 2 3 4 5 8 12 15 16 22\n6 18",
+      "output": "1 2 3 4 5 22"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:29:59.931027Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 323,
+  "accepted_number": 151,
+  "statistic_info": {
+    "0": 151,
+    "4": 57,
+    "-1": 87,
+    "-2": 28
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": 0
+}

@@ -1,0 +1,68 @@
+{
+  "id": 2,
+  "tags": [
+    "串"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1026",
+  "title": "4.17-字符串替换",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">编写算法，实现串的基本操作Replace(&S, T, V)，替换</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入串，待替换字符串，替换字符串</p><p>使用空格分隔</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出替换后的字符串</span><br /></p>",
+  "samples": [
+    {
+      "input": "abcde cd f",
+      "output": "abfe"
+    },
+    {
+      "input": "dddf dd f",
+      "output": "fdf"
+    },
+    {
+      "input": "eeee dd f",
+      "output": "eeee"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T03:59:41.345032Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 223,
+  "accepted_number": 137,
+  "statistic_info": {
+    "0": 137,
+    "1": 7,
+    "4": 7,
+    "-1": 47,
+    "-2": 10
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

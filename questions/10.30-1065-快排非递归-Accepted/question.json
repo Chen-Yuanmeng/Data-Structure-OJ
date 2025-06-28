@@ -1,0 +1,59 @@
+{
+  "id": 44,
+  "tags": [
+    "排序"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1065",
+  "title": "10.30-快排非递归",
+  "description": "<p style=\"margin-left: 0px;\">按照下述原则编写快排的非递归算法：</p><p>（1）一趟排序之后，先对长度较短的子序列进行排序，且将另一子序列的上、下界入栈保存</p><p>（2）若待排序记录数&lt;=3，则不再进行分割，而是直接进行比较排序</p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入\b待排序列</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出排序完成后的序列</span><br /></p>",
+  "samples": [
+    {
+      "input": "18 39 21 23 9 1",
+      "output": "1 9 18 21 23 39"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:21:56.523053Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 118,
+  "accepted_number": 92,
+  "statistic_info": {
+    "0": 92,
+    "4": 4,
+    "-1": 14,
+    "-2": 8
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

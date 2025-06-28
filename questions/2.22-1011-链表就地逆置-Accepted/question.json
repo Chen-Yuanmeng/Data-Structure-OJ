@@ -1,0 +1,60 @@
+{
+  "id": 26,
+  "tags": [
+    "链表"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1011",
+  "title": "2.22-链表就地逆置",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">试写一算法，实现单链表的就地逆置</span><br /></p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入为给定链表的所有元素，以逗号分隔</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出为链表逆置后的结果，以逗号分隔</span><br /></p>",
+  "samples": [
+    {
+      "input": "s,a,s,f,w,s,a,d,a,S",
+      "output": "S,a,d,a,s,w,f,s,a,s"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:29:15.005388Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 267,
+  "accepted_number": 144,
+  "statistic_info": {
+    "0": 144,
+    "3": 2,
+    "4": 27,
+    "-1": 76,
+    "-2": 18
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": 0
+}

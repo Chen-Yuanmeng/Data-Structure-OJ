@@ -1,0 +1,64 @@
+{
+  "id": 19,
+  "tags": [
+    "栈"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1018",
+  "title": "3.21-逆波兰式",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">假设表达式由单字母变量和双目四则运算符构成.试写一个算法,将一个通常书写形式且书写正确的表达式转换为逆波兰式.</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">常规运算表达式,比如</p><p>a+b</p>",
+  "output_description": "<p style=\"margin-left: 0px;\">逆波兰式</p><p>ab+</p>",
+  "samples": [
+    {
+      "input": "A+B*(C-D)-E*F",
+      "output": "ABCD-*+EF*-"
+    },
+    {
+      "input": "b*c/d",
+      "output": "bc*d/"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:23:10.926154Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 209,
+  "accepted_number": 132,
+  "statistic_info": {
+    "0": 132,
+    "1": 2,
+    "4": 19,
+    "-1": 44,
+    "-2": 12
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

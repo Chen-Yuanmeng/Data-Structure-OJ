@@ -1,0 +1,60 @@
+{
+  "id": 51,
+  "tags": [
+    "序列排序"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1073",
+  "title": "10.46-序列的排序方法",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">序列b的每个元素是一个记录，每个记录占的存储量比其关键字占的存储量大得多，因而记录的移动操作是极为费时的。试写一个算法，将序列b的排序结果放入序列a中，且每个记录只拷贝一次而无其他移动。你的算法可以调用第10章中给出的任何排序算法。思考：当记录存于链表中时，若希望利用快速排序算法对关键字排序，从而最后实现链表的排序，如何模仿上述方法实现？</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入分为两行：</p><p>第一行为序列b中元素的个数；</p><p>第二行为序列b中元素（一个无序序列），数与数之间用空格隔开。</p>",
+  "output_description": "<p><font>输出序列a中的元素（即序列b的排序结果，从小到大排序）</font><span style=\"color: rgb(51, 51, 51);\">，数与数之间用空格隔开。</span><br /></p>",
+  "samples": [
+    {
+      "input": "4\n-5 66 21 1",
+      "output": "-5 1 21 66"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:31:20.572754Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 115,
+  "accepted_number": 88,
+  "statistic_info": {
+    "0": 88,
+    "1": 2,
+    "4": 9,
+    "-1": 14,
+    "-2": 2
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

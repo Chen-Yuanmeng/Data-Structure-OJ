@@ -1,0 +1,67 @@
+{
+  "id": 70,
+  "tags": [
+    "树"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1042",
+  "title": "6.51-二叉树与算术表达式",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">编写一个算法，输出以二叉树表示的算术表达式，若该表达式中含有括号，则在输出时应添上。</span><br /></p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入对应表达式二叉树的先序遍历序列，其中#表示空节点。（如a##表示a的左右节点都为空，即a为叶子节点）</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出正常的表达式序列（即表达式二叉树的中序遍历序列）</span><br /></p>",
+  "samples": [
+    {
+      "input": "*+a##b##c##",
+      "output": "(a+b)*c"
+    },
+    {
+      "input": "-a##*b##c##",
+      "output": "a-b*c"
+    },
+    {
+      "input": "-+a##b##-c##d##",
+      "output": "a+b-(c-d)"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T08:05:53.883691Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 219,
+  "accepted_number": 96,
+  "statistic_info": {
+    "0": 96,
+    "4": 16,
+    "-1": 78,
+    "-2": 21
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

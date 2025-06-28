@@ -1,0 +1,60 @@
+{
+  "id": 35,
+  "tags": [
+    "绪论"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "0102",
+  "title": "1.17-k阶斐波那契数列",
+  "description": "<p style=\"margin-left: 0px;\">已知k阶斐波那契序列的定义为</p><p>$f_0=0, f_1=0, ..., f_{k-2}=0, f_{k-1}=1$</p><p>$f_n=f_{n-1}+f_{n-2}+...+f_{n-k}, n=k,k+1,...$</p><p>试编写求k阶裴波那契序列的第m项值的函数算法，k和m均以值调用的形式在函数参数表中出现。</p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入为k和m（m从0开始，$f_0$对应m=0）</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出第m项的值</span><br /></p>",
+  "samples": [
+    {
+      "input": "2 7",
+      "output": "13"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:36:05.885068Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 408,
+  "accepted_number": 163,
+  "statistic_info": {
+    "0": 163,
+    "1": 2,
+    "4": 19,
+    "-1": 158,
+    "-2": 66
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": 0
+}

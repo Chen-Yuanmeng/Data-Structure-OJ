@@ -1,0 +1,67 @@
+{
+  "id": 61,
+  "tags": [
+    "图"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1052",
+  "title": "7.38-有向无环图转逆波兰式",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">一个四则运算算术表达式以有向无环图的邻接表方式存储，每个操作数原子都由单个字母表示。写一个算法输出其逆波兰表达式。</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入第一行为图的顶点个数n</p><p>第二行开始的n行输入每个节点，第一个元素为节点的字符，第二个元素开始为对应邻接表的节点</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出逆波兰式</span><br /></p>",
+  "samples": [
+    {
+      "input": "3\n+ 1 2\nb\na\n",
+      "output": "ab+\n"
+    },
+    {
+      "input": "5\n* 2 1\n+ 4 3\nc\na\nb\n",
+      "output": "ab+c*\n"
+    },
+    {
+      "input": "7\n- 2 1\n* 6 5\n+ 4 3\nc\nd\na\nb\n",
+      "output": "ab*cd+-\n"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:49:31.620680Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 100,
+  "accepted_number": 84,
+  "statistic_info": {
+    "0": 84,
+    "4": 4,
+    "-1": 10,
+    "-2": 2
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

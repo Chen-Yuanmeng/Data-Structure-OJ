@@ -1,0 +1,58 @@
+{
+  "id": 48,
+  "tags": [
+    "简单选择排序"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1067",
+  "title": "10.33-单链表实现简单选择排序",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">试以单链表为存储结构实现简单选择排序的算法</span><br /></p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入为一组待排序的数字序列，共一行</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出是将利用简单选择排序的数字序列按递增顺序排列</span><br /></p>",
+  "samples": [
+    {
+      "input": "4 8 -5 27 6 13 27 0",
+      "output": "-5 0 4 6 8 13 27 27"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:28:09.496981Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 104,
+  "accepted_number": 91,
+  "statistic_info": {
+    "0": 91,
+    "-1": 9,
+    "-2": 4
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

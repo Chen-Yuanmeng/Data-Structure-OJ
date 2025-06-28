@@ -1,0 +1,60 @@
+{
+  "id": 24,
+  "tags": [
+    "链表"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1012",
+  "title": "2.29-修改链表",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">已知A，B和C为三个递增有序的线性表，现要求对A表做如下操作：删去那些既在B表中出现又在C表中出现的元素。试对顺序表编写实现上述操作的算法。</span><br /></p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入包含三行，分别为ABC三个线性表中的元素，以逗号分隔</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出操作之后的A表中的元素</span><br /></p>",
+  "samples": [
+    {
+      "input": "a,b,c,d,e,f,g\nb,e,g,h,h\nc,e,g,h",
+      "output": "a,b,c,d,f"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:27:41.047003Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 368,
+  "accepted_number": 139,
+  "statistic_info": {
+    "0": 139,
+    "1": 5,
+    "4": 74,
+    "-1": 119,
+    "-2": 31
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": 0
+}

@@ -1,0 +1,59 @@
+{
+  "id": 47,
+  "tags": [
+    "查找"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1057",
+  "title": "9.29-有序表查找",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">已知一非空有序表，表中记录按关键字递增排列，以不带头结点的单循环链表作存储结构，外设两个指针h和t，其中h始终指向关键字最小的节点，t则在表中浮动，其初始位置和h相同，在每次查找之后指向刚查到的节点。查找算法的策略是：首先将给定值K和t-&gt;key进行比较，若相等，则查找成功；否则因K小于或大于t-&gt;key而从h所指节点或t所指节点的后继节点进行查找，按上述过程编写查找算法。</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">第一行输入顺序表中的元素，以空格分隔</p><p>第二行输入需要查找的元素，以空格分隔</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">对每个需要查找的元素输出是否查找到，能查找到输出1，否则输出0</span><br /></p>",
+  "samples": [
+    {
+      "input": "2 4 32 64 100\n1 2 3",
+      "output": "0 1 0"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:27:05.263663Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 103,
+  "accepted_number": 84,
+  "statistic_info": {
+    "0": 84,
+    "4": 4,
+    "-1": 10,
+    "-2": 5
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

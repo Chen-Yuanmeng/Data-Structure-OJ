@@ -1,0 +1,60 @@
+{
+  "id": 23,
+  "tags": [
+    "链表"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1013",
+  "title": "2.38-双向循环链表访问",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">设有一双向循环链表，每个节点中除有prior,data和next三个域外，还增设了一个访问频度域freq。在链表被启用之前，频度域freq的值均初始化为0，而每当对链表进行一次LOCATE(L,x)的操作后，被访问的节点（即元素值等于x的节点）中的频度域freq的值便增1，同时调整链表中节点之间的次序，使其按访问频度非递增的次序顺序排列，以便始终保持被频繁访问的节点总是靠近表头结点。编写符合上述要求的LOCATE操作的算法。</span><br /></p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入包含三行，第一行是链表中的元素个数，第二行是链表中的元素，第三行包含所有被访问的元素</span><br /></p>",
+  "output_description": "<p style=\"margin-left: 0px;\">顺序输出从表头节点开始的链表中的元素。</p><p>注意：如果有多个元素的访问次数相同，需要按照访问次序，将先访问到的元素放在前面</p>",
+  "samples": [
+    {
+      "input": "10\n1 2 3 4 5 6 7 8 9 10\n1 2 2 2 3 4 5 5 4 10 9",
+      "output": "2 4 5 1 3 10 9 6 7 8"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:26:56.560347Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 444,
+  "accepted_number": 134,
+  "statistic_info": {
+    "0": 134,
+    "1": 39,
+    "4": 39,
+    "-1": 112,
+    "-2": 35
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

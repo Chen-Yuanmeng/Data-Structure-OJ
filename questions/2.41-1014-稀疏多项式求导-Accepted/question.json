@@ -1,0 +1,65 @@
+{
+  "id": 22,
+  "tags": [
+    "链表"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1014",
+  "title": "2.41-稀疏多项式求导",
+  "description": "<p style=\"margin-left: 0px;\">试以循环链表作稀疏多项式的存储结构，编写求其导函数的算法，要求利用原多项式中的节点空间存放其导函数（多项式），同时释放所有无用（被删）节点。</p><p>稀疏多项式中采用的循环链表存储结构LinkedPoly定义为</p><pre><code class=\"lang-c++\">typedef struct PolyNode{\n  PolyTerm data;\n  Struct PolyNode *next;\n} PolyNode, *PolyLink;\n\ntypedef PolyLink LinkedPoly;\n</code></pre>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入为给定的多项式</span><br /></p>",
+  "output_description": "<p style=\"margin-left: 0px;\">输出为求导之后的结果，按照多项式中每一项的幂次由高到低排列</p><p>如果导数为0，则输出0</p>",
+  "samples": [
+    {
+      "input": "- 2x + 4x^2 + 2x^3 + 3x^3 + 2x + 3x^2 - 3x^10",
+      "output": "- 30x^9 + 15x^2 + 14x"
+    },
+    {
+      "input": "3x^2 + 4",
+      "output": "6x"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:26:13.489652Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 487,
+  "accepted_number": 135,
+  "statistic_info": {
+    "0": 135,
+    "1": 15,
+    "3": 3,
+    "4": 55,
+    "-1": 123,
+    "-2": 26
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

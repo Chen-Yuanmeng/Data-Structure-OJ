@@ -1,0 +1,68 @@
+{
+  "id": 75,
+  "tags": [
+    "二叉树"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1037",
+  "title": "6.37-先序遍历的非递归形式",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">使用栈的基本操作写出二叉树先序遍历的非递归形式的算法。</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入为 $n$ 行，表示 $n$ 个节点的信息。</p><p>第 $i， i\\in[1, n]$ 行为节点 $i$ 的信息，包括一个字符 $c$ 和两个数字 $p$ 和 $q$， 这表示第 $i$ 个节点的内容为字符 $c$, 其左孩子为 $p$, 右孩子为 $q$。空节点使用 -1 表示。</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出为一行，按照先序遍历的顺序打印出二叉树节点的内容（即每个节点所对应的字符 $c$）, 并以空格隔开。</span><br /></p>",
+  "samples": [
+    {
+      "input": "A -1 -1",
+      "output": "A"
+    },
+    {
+      "input": "A 2 -1\nB -1 -1",
+      "output": "A B"
+    },
+    {
+      "input": "A 2 4\nB -1 3\nC -1 -1\nD -1 -1\n",
+      "output": "A B C D"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T08:12:57.961868Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 196,
+  "accepted_number": 100,
+  "statistic_info": {
+    "0": 100,
+    "1": 3,
+    "4": 45,
+    "-1": 39,
+    "-2": 9
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

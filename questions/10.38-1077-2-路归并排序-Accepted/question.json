@@ -1,0 +1,58 @@
+{
+  "id": 37,
+  "tags": [
+    "2-路归并排序"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1077",
+  "title": "10.38-2-路归并排序",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">2-路归并排序的另一策略是，先对待排序序列扫描一遍，找出并划分为若干个最大有序子列，将这些子列作为初始归并段。试写一个算法在链表结构上实现这一策略。</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入分为两行：</p><p>第一行代表输入的数据元素的个数</p><p>第二行是输入的所有数据元素，元素之间用空格隔开</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出经过</span><span style=\"color: rgb(51, 51, 51);\">2-路归并排序</span><span style=\"color: rgb(51, 51, 51);\">后的数据元素序列，元素之间用空格隔开（数据元素按从小到大排序）</span><br /></p>",
+  "samples": [
+    {
+      "input": "5\n2 5 3 1 4\n",
+      "output": "1 2 3 4 5\n"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:13:19.169193Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 113,
+  "accepted_number": 101,
+  "statistic_info": {
+    "0": 101,
+    "-1": 8,
+    "-2": 4
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

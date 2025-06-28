@@ -1,0 +1,68 @@
+{
+  "id": 6,
+  "tags": [
+    "串"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1029",
+  "title": "4.30-最长重复子串及其位置",
+  "description": "<p style=\"margin-left: 0px;\">假设以定长顺序存储结构表示串，试写出一个算法，求串s中第一次出现的最长重复字串及其位置。</p><p>注意：重复的子串可以重叠</p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入串s</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出最长重复子串，及其首次出现的位置，如果没出现重复子串则直接输出-1</span><br /></p>",
+  "samples": [
+    {
+      "input": "aaaaa",
+      "output": "aaaa 0"
+    },
+    {
+      "input": "abc",
+      "output": "-1"
+    },
+    {
+      "input": "aaabbbbaaa",
+      "output": "aaa 0"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:07:30.013375Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 228,
+  "accepted_number": 120,
+  "statistic_info": {
+    "0": 120,
+    "1": 4,
+    "4": 5,
+    "-1": 77,
+    "-2": 22
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

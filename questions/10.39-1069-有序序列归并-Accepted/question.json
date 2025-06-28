@@ -1,0 +1,60 @@
+{
+  "id": 54,
+  "tags": [
+    "排序"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1069",
+  "title": "10.39-有序序列归并",
+  "description": "<p style=\"margin-left: 0px;\">已知两个有序序列 $\\left(a_{1}, a_{2}, \\cdots, a_{m}\\right)$ 和 $\\left(a_{m+1}, a_{m+2}, \\cdots, a_{n}\\right)$，并且其中一个序列的记录个数少于 $s$，且$s=\\lfloor\\sqrt{n}\\rfloor$。试写一个算法，用 $O(n)$ 时间和 $O(1)$ 附加空间完成这两个有序序列的合并。</p><p>提示：有大样例，请严格按照时间复杂度来。</p>",
+  "input_description": "<p><span style=\"color: rgb(51, 51, 51);\">输入为两行，每行为一个有序序列，序列内的数字用空格隔开。</span><br /></p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">排序后的序列，序列内的数字用空格隔开</span><br /></p>",
+  "samples": [
+    {
+      "input": "1 3 5\n2 4",
+      "output": "1 2 3 4 5\n"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:35:21.232966Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 278,
+  "accepted_number": 90,
+  "statistic_info": {
+    "0": 90,
+    "1": 6,
+    "4": 78,
+    "-1": 80,
+    "-2": 24
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

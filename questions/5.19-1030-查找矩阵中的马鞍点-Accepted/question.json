@@ -1,0 +1,59 @@
+{
+  "id": 12,
+  "tags": [
+    "二维数组检索"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1030",
+  "title": "5.19-查找矩阵中的马鞍点",
+  "description": "<p style=\"margin-left: 0px;\">若矩阵A(m*n)中的某个元素a是第i行中的最小值，同时又是第j列中的最大值，则称此元素为该矩阵中的一个马鞍点。</p><p>假设以二维数组存储矩阵Ａ(m*n)，试编写求出矩阵中所有马鞍点的算法，并分析你的算法在最坏情况下的时间复杂度。</p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入分为两部分：</p><p>第一部分位于第一行，输入二维数组的行数与列数（中间由空格间隔），</p><p>从第二行开始作为第二部分，表示为整数二维数组的读入。</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出所有在二维数组中表示马鞍点的元素的值，中间由空格隔开</span><br /></p>",
+  "samples": [
+    {
+      "input": "3 4\n10 16 13 14\n15 18 15 20\n5 8 12 32",
+      "output": "15 15"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-20T04:15:21.203913Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 170,
+  "accepted_number": 120,
+  "statistic_info": {
+    "0": 120,
+    "4": 4,
+    "-1": 34,
+    "-2": 12
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}

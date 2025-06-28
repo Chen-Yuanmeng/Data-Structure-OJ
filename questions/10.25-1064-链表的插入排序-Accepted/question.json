@@ -1,0 +1,60 @@
+{
+  "id": 52,
+  "tags": [
+    "链表"
+  ],
+  "created_by": {
+    "id": 1,
+    "username": "admin",
+    "real_name": null
+  },
+  "template": {},
+  "_id": "1064",
+  "title": "10.25-链表的插入排序",
+  "description": "<p><span style=\"color: rgb(51, 51, 51);\">试编写教科书10.2.2节中所述链表插入排序的算法。</span><br /></p>",
+  "input_description": "<p style=\"margin-left: 0px;\">输入分为两行：</p><p>第一行为输入的序列的长度；</p><p>第二行为一个无序序列，数与数之间用空格隔开。</p>",
+  "output_description": "<p><span style=\"color: rgb(51, 51, 51);\">输出经过</span><span style=\"color: rgb(51, 51, 51);\">链表插入排序后的序列（从小到大排序），数与数之间用空格隔开。</span><br /></p>",
+  "samples": [
+    {
+      "input": "6\n6 5 1 2 4 3",
+      "output": "1 2 3 4 5 6"
+    }
+  ],
+  "hint": "",
+  "languages": [
+    "C",
+    "C++",
+    "Golang",
+    "Java",
+    "JavaScript",
+    "Python2",
+    "Python3"
+  ],
+  "create_time": "2023-07-21T07:32:31.644542Z",
+  "last_update_time": null,
+  "time_limit": 1000,
+  "memory_limit": 256,
+  "io_mode": {
+    "input": "input.txt",
+    "output": "output.txt",
+    "io_mode": "Standard IO"
+  },
+  "spj": false,
+  "spj_language": null,
+  "rule_type": "ACM",
+  "difficulty": "Low",
+  "source": "",
+  "total_score": 0,
+  "submission_number": 131,
+  "accepted_number": 93,
+  "statistic_info": {
+    "0": 93,
+    "1": 2,
+    "4": 7,
+    "-1": 20,
+    "-2": 9
+  },
+  "share_submission": false,
+  "contest": null,
+  "my_status": null
+}
